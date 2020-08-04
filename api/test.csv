@@ -1,6 +1,0 @@
-name, Address1, Address2, City, State, Zip
-TestName1,123 MainStreet,Apt1,TestCity1,state1,13210-0001
-TestName2,456 MainStreet,Apt1,TestCity2,state2,12347-0002
-TestName3,789 MainStreet,,TestCity6,state3,76895-0003
-TestName4,999 MainStreet,,TestCity9,state4,10007-0004
-TestName5,105 MainStreet,Apt1,TestCity10,state5,10507-0005
