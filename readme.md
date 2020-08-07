@@ -35,7 +35,7 @@ use this formula : =TEXT(B2, "00000000")<br/>
 Then check the required column names to not have any special characters in them. <br/>
 Save it in the folder of the codes or where the API is hosted. <br/>
 <br/>
-To host the Express Rest API:<br/>
+<b>To host the Express Rest API:</b><br/>
 Go to Node Command Prompt and type the command: npm install pm2 -g <br/>
 Then type: pm2 ls<br/>
 If it throws an error: Go to C:\Users\<username>\AppData\Roaming\npm -> If you got error on the pm2 file, delete the pm2.ps1 file and clean the npm-cache folder.<br/>
