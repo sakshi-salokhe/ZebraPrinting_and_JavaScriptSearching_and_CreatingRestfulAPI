@@ -20,6 +20,12 @@ Accept risks and continue<br/>
 search for print.always_print_silent: if it is found - set it to true.<br />
 If not found - add the new command and set it Boolean value to true<br/>
 <br/>
+If you use Chrome browser:<br/>
+End all Tasks for Chrme Browser.<br/>
+Go to chrome shortcut -> Properties -> Shortcut -> Target location<br/>
+In the location, after the path end: "....exe", enter this comand along with the space - " --kiosk-printing" -> Apply -> Ok <br/>
+You should not get the print preview after this.<br/>
+<br/>
 <b>For printing:</b><br/>
 install the printer drivers<br/>
 (I have connected my printer via usb)<br/>
