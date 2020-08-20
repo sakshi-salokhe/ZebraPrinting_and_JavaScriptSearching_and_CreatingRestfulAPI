@@ -7,11 +7,11 @@ You can find the printer details below and the screenshots of the final project 
 
 <hr/>
 <h4>Printer used: GX420D <h4/>
-<h4>Installation:</h4><br/>
-npm install --save express<br/>
-npm i --save csvtojson<br/>
-npm install cors<br/>
-npm i mime-types<br />
+<h4>Installation:</h4>
+npm install --save express
+npm i --save csvtojson
+npm install cors
+npm i mime-types
 <br/>
 <h4>Running the server:</h4><br/>
 cd path to api to api folder and then type the following command:<br/>
