@@ -50,7 +50,7 @@ const loadCharacters = async () => {
         //const res = await fetch('https://hp-api.herokuapp.com/api/characters');
         //const res = await fetch('http://dummy.restapiexample.com/api/v1/employees');
         // const res = await fetch('http://localhost:3000')
-        const res = await fetch('http://10.226.5.98:3000/')
+        const res = await fetch('http://10.226.5.98:3000/') //make sure to add the REST API url that you have deployed here
         
         hpCharacters = await res.json();
         chardata = hpCharacters;
