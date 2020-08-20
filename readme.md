@@ -23,7 +23,7 @@ If not found - add the new command and set it Boolean value to true<br/>
 If you use Chrome browser:<br/>
 End all Tasks for Chrme Browser.<br/>
 Go to chrome shortcut -> Properties -> Shortcut -> Target location<br/>
-In the location, after the path end: "....exe", enter this comand along with the space - " --kiosk-printing" -> Apply -> Ok <br/>
+In the location, after the path end: "....exe", enter this comand along with the space - " --kiosk-printing" or "--disable-print-preview" or "--kiosk"-> Apply -> Ok <br/>
 You should not get the print preview after this.<br/>
 <br/>
 <b>For printing:</b><br/>
