@@ -2,6 +2,7 @@
 npm install --save express<br/>
 npm i --save csvtojson<br/>
 npm install cors<br/>
+npm i mime-types<br />
 <br/>
 <b>To run the server:</b><br/>
 cd to api folder and then type the following command:<br/>
