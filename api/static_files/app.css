@@ -1,0 +1,105 @@
+    body {
+    font-family: sans-serif;
+    background-color: #111d4a;
+    font-size: small;
+}
+
+* {
+    box-sizing: border-box;
+}
+h1 {
+    color: #eee;
+    margin-bottom: 30px;
+}
+.container {
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+#charactersList {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+}
+
+.character {
+    list-style-type: none;
+    background-color: #eaeaea;
+    border-radius: 3px;
+    padding: 1px 1px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+        'name image'
+        'house image';
+    text-align: left;
+}
+
+.character > h2 {
+    grid-area: name;
+    margin-bottom: 0px;
+}
+
+.character > p {
+    grid-area: house;
+    margin: 0;
+    /*margin-top: -18px;*/
+}
+
+.character > img {
+    max-height: 100px;
+    max-width: 150px;
+    grid-area: image;
+}
+
+.searchBar {
+    width: 90%;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #eaeaea;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+#searchWrapper {
+    position: relative;
+}
+
+/* #searchWrapper::after {
+    position: absolute;
+    top: 7px;
+    right: 15px;
+} */
+
+.button-class{
+    background-color: #a3a29f; /* Grey */
+    border: none;
+    color: #111d4a;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.button-class:not(:disabled) {
+    background-color: #77ff73;
+    color: black;
+}
+
+.button-class:hover:not(:disabled) {
+background-color: #7398ff;
+color: black;
+}
+
+#myDIV {
+    width: 50%;
+    padding: 25px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+    margin-left: 25%;
+  }
