@@ -16,33 +16,39 @@ npm i mime-types<br/>
 <h4>Running the server:</h4>
 cd path to api to api folder and then type the following command:<br/>
 node server.js<br/>
-<br/>
-<h4>In Mozilla Browser:</h4>
-Click the three horizontal sign symbol to the right hand side.<br/>
-Go to print<br/>
-Select page setup -> Margins and Header/Footer<br/>
-In the below section - select blank everywhere for all the dropdowns.<br/>
-<br/>
-<h4>In Chrome Browser:</h4>
-Do Ctrl+P and uncheck the header, footer, margin check-boxes from the print preview.<br/>
-<br/>
+<ul>
+  <li>
+    <h4>In Mozilla Browser:</h4>
+    Click the three horizontal sign symbol to the right hand side.<br/>
+    Go to print<br/>
+    Select page setup -> Margins and Header/Footer<br/>
+    In the below section - select blank everywhere for all the dropdowns.<br/>
+  </li>
+  <li>
+    <h4>In Chrome Browser:</h4>
+    Do Ctrl+P and uncheck the header, footer, margin check-boxes from the print preview.<br/>
+  </li>
+</ul>
 <h4>For printing without plugin:</h4>
-<u>Go to mozilla browser:</u><br/>
-Type about:config in the url bar<br/>
-Accept risks and continue<br/>
-Search for print.always_print_silent: if it is found - set it to true.<br />
-If not found - add the new command and set it Boolean value to true<br/>
-<br/>
-<u> For Chrome browser: </u><br/>
-End all Tasks for Chrome Browser.<br/>
-Go to chrome shortcut -> Properties -> Shortcut -> Target location<br/>
-In the location, after the path end: "....exe", enter this comand along with the space - " --kiosk-printing" or "--disable-print-preview" or "--kiosk"-> Apply -> Ok <br/>
-You should not get the print preview after this.<br/>
-<br/>
+<ul>
+  <li>
+    <u>Go to mozilla browser:</u><br/>
+    Type about:config in the url bar<br/>
+    Accept risks and continue<br/>
+    Search for print.always_print_silent: if it is found - set it to true.<br />
+    If not found - add the new command and set it Boolean value to true<br/>
+  </li>
+  <li>
+    <u> For Chrome browser: </u><br/>
+    End all Tasks for Chrome Browser.<br/>
+    Go to chrome shortcut -> Properties -> Shortcut -> Target location<br/>
+    In the location, after the path end: "....exe", enter this comand along with the space - " --kiosk-printing" or "--disable-print-preview" or "--kiosk"-> Apply -> Ok <br/>
+    You should not get the print preview after this.<br/>
+  </li>
+</ul>
 <h4>For printing:</h4>
 Install the printer drivers and connect it to your system using USB.<br/>
 Set the printer as default printer<br/>
-<br/>
 <h4>For csv file from Aspen Dental:</h4>
 Open new excel<br/>
 Import from text and import the file and click "my data has headers"<br/>
@@ -51,7 +57,6 @@ Add new column at "C" Column<br/>
 Use this formula : =TEXT(B2, "00000000")<br/>
 Then check the required column names to not have any special characters in them. <br/>
 Save it in the folder of the codes or where the API is hosted. <br/>
-<br/>
 <h4>To deploy the Express Rest API:</h4>
 Go to Node Command Prompt and type the command: npm install pm2 -g <br/>
 Then type: pm2 ls<br/>
@@ -60,7 +65,6 @@ If it throws an error: <br/>
   Now again go to the folder in terminal and do pm2 ls (It will throw a pretty description).<br />
   Now type the command:<b> pm2 start server_file_name.js --watch</b>(in this case server.js)<br/>
   If you type in <b>localhost:port number</b> in the url, you will see the REST API running even when the server is not started.<br/>
-<br/>
 <h4>To deploy the static files as well:</h4>
   Go to command prompt <br/>
   Then type: pm2 ls<br/>
