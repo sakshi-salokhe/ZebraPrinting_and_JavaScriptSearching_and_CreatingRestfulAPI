@@ -7,8 +7,7 @@ You can find the printer details below and the screenshots of the final project 
 
 <hr/>
 <h4>Printer used: GX420D <h4/>
-<br/>
-<h4>Installation:<h4/><br/>
+<h4>Installation:</h4><br/>
 npm install --save express<br/>
 npm i --save csvtojson<br/>
 npm install cors<br/>
