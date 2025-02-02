@@ -15,7 +15,7 @@ const server = http.createServer((serverapp,res)=>
         path = "index.html";
       }
 
-      let file = "C:/Users/w501738/Desktop/Z-PrintingProject/api/static_files/" + path; //change the path in the quotes to your path
+      let file = "C:/Users/Desktop/Z-PrintingProject/api/static_files/" + path; //change the path in the quotes to your path
 
       fs.readFile(file, function(err, content) {
         if (err) {
